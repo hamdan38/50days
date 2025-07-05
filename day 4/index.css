@@ -1,0 +1,35 @@
+.imgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 200px;
+    
+}
+.imgs  figure{
+    flex: calc(30%);
+    margin: 0;
+}
+.imgs img{
+    width: 200px;
+    height: 200px;
+
+}
+.header{
+    text-align: center;
+    color: aqua;
+    background-color: rgb(77, 197, 30);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}  
+.footer{
+    color: blueviolet;
+    background-color: aqua;
+    width: 100%;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+}
+body{
+    background-color: rgb(212, 146, 47);
+}
