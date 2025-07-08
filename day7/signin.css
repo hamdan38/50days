@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 60vh;
+    width: 40vw;
+    background-color:#A6D9F7;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background-color: #312F2F;
+    color: #BF98A0;
+}
+.main{
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+body{
+    background-color: #BCCCE0;
+}
+h1{
+    margin-top: 0px;
+}

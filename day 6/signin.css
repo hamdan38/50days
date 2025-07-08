@@ -1,0 +1,11 @@
+.signin{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+button{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
