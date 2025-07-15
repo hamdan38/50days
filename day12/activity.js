@@ -1,0 +1,22 @@
+let v=document.getElementById("in");
+document.getElementById("in").addEventListener("input",
+    function(event){
+        document.getElementById("live").innerHTML=this.value;
+        live.style.color="green";
+    }
+);
+document.getElementById("in").addEventListener("focus",
+    function(){
+        this.style.backgroundColor="grey";
+    }
+);
+document.getElementById("in").addEventListener("blur",
+    function(){
+        document.getElementById("live").innerHTML=this.value;
+    }
+);
+document.getElementById("in").addEventListener("dblclick",
+    function(){
+        live.style.color="red";
+    }
+);
