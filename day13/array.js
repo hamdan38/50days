@@ -1,0 +1,10 @@
+let arr=["apple","banana","carrot"];
+console.log(arr);
+arr.push("dragonfruit","egg");
+console.log("after pushing :"+arr);
+arr.pop();
+console.log("after popping: "+arr);
+arr.unshift("ramu","vinod");
+console.log("after unshift : "+arr);
+arr.shift();
+console.log("after shift :"+arr);
